@@ -1,0 +1,23 @@
+{
+  "name": "request-logging-app",
+  "version": "1.0.0",
+  "description": "create a middleware function for logging details about incoming requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveen00219/Request-Logging-Middleware.git"
+  },
+  "author": "Praveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveen00219/Request-Logging-Middleware/issues"
+  },
+  "homepage": "https://github.com/praveen00219/Request-Logging-Middleware#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
